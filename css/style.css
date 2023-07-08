@@ -173,6 +173,7 @@ body{
     right: 0;
     width: 130px;
     transition: 1s ease;
+    mix-blend-mode: multiply;
 }
 
 .slider-bonus__slider{
