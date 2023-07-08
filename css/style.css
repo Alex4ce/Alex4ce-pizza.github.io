@@ -26,6 +26,7 @@ body{
 .header{
     background: #f8f8f8;
     margin-bottom: -30px;
+    position: relative;
 }
 
 .header-wrapper{
@@ -85,6 +86,10 @@ body{
     text-align: right;
 }
 
+.header-right__telephone{
+    color: #f17a1b;
+}
+
 .basket{
     width: 32px;
     height: 32px;
@@ -139,6 +144,7 @@ body{
     overflow: hidden;
     flex: 1 1 300px;
     box-sizing: border-box;
+    background: white;
 }
 
 .slider-bonus__box:hover .slider-bonus__box-img{
@@ -339,12 +345,24 @@ body{
     
     .item-text{
         color: grey;
-        font-size: 12px;
+        font-size: 1.1em;
     }
     
     .item-price{
         color: #f17a1b;
-        font-size: 14px;
+        font-size: 1.1em;
+    }
+
+    .container{
+        padding: 0;
+    }
+    
+    .header-wrapper{
+        padding: 20px 20px 60px 20px;
+
+    }
+    .pizza-calaogue{
+        padding: 0 20px;
     }
 }
 
@@ -362,3 +380,5 @@ body{
     .slider-bonus__box-img{
         right: -70px;
     }
+
+}
