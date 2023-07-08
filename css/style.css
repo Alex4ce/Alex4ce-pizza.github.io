@@ -26,7 +26,6 @@ body{
 .header{
     background: #f8f8f8;
     margin-bottom: -30px;
-    position: relative;
 }
 
 .header-wrapper{
@@ -228,7 +227,6 @@ body{
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-    /* justify-content: space-between; */
     margin-bottom: 60px;
 }
 
@@ -334,8 +332,7 @@ body{
 
     .header__nav{
         display: none;
-    }
-    
+    }    
 }
 
 @media screen and (max-width: 600px) {
@@ -380,5 +377,4 @@ body{
     .slider-bonus__box-img{
         right: -70px;
     }
-
 }
